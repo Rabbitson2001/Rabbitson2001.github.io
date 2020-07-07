@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Pear Group">
+    <title>Npal2 Student Portal Promotional Website</title>
+    <meta name="description" content="Npal2 - New and improved features added for a fulfilling experience. Experience Npal2 on a whole new level!">
+
+    <!--stylesheet-->
+    <link href="stylesheet.css" rel="stylesheet" type="text/css">
+    <link href="aos.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+</head>
+
+<body>
+
+<div id="wrapper">
+<div id="screentop"></div>
+    <!--navigation-->
+<div id="navigation">
+    <a href="#screentop" id="logo"><img src="imgs/pear logo.png" alt="Pear Logo"></a>
+    <nav id="top">
+           <a href="#" id ="small_menu"><img src="imgs/hamburger.png"></a>
+            <ul class="main">
+                <li id="whatsnew">
+                   <a>What's New</a>
+                    <ul id="whatsnew2">   
+                        <li><a href="#absence">Absence Summary</a></li>
+                        <li><a href="#timetable">Class Timetable</a></li>
+                        <li><a href="#themes">Themes</a></li>
+                    </ul>
+                </li>
+                <li><a href="#try">Try It</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+    </nav>
+</div>
+    <!--sections-->
+      
+       <section id="home">
+            <img id="backgrounddesktop" src="imgs/Macbook Pro 02.png" alt="Desktop and Mobile Mockups Background Picture">
+            
+            <img id="backgroundmobile" src="imgs/MOBILE PROMO SITE BG new.png" alt="Mobile Mockups Background Picture">
+            
+            <div id="homecontent">
+               <p>Npal2 New Features</p>
+               
+                <h1>New and improved features added for a fulfilling experience.<br>Experience Npal2 on a whole new level!<br> Explore our new features now!</h1>
+                
+                <h2>New and improved features added for a fulfilling experience. Explore our new features now!</h2>
+                
+                 <div class="download">
+                      <a href="#"><img src="imgs/download apple.png" alt="Download from the Apple Appstore"></a>
+          
+                       <a href="#"><img src="imgs/download google.png" alt="Download from the Google Playstore"></a>
+               </div>
+            </div>
+        </section>
+       
+        <section id="absence">
+            <div id="absencecontent">
+             <div class="header">
+                  <img src="imgs/acad matters icon.png" alt="Academic Matters icon">
+                   <h1>Absence Summary</h1>
+                   <h2>Filter <span>(NEW)</span>, Statistics <span>(NEW)</span></h2>
+               </div>
+               
+               <img class="mockup" id="filtermockup" data-aos="flip-right" src="imgs/Absence Summary 1.png" alt="Mockup of filter page">
+               <img class="mockup" id="statsmockup" data-aos="flip-right" src="imgs/Stats 2.png" alt="Mockup of statistics page">
+               
+               <div id="filter">
+               <h3>Filter</h3>
+               <p>Keep track of your absence summary by filtering according to specific categories — Module, Class, Term and Week.</p>
+               <div class="dots">
+               <img src="imgs/filtercircle.png" alt="Circle Icon">
+               <button id="dotone" onclick="myFunction1()"><img src="imgs/statscircle.png" alt="Press to see Statistics text"></button></div>
+               </div>
+               
+               
+            <div id="stats">
+               <h3>Statistics</h3>
+               <p>Statistics of your attendance for all modules are now shown. With just one percentage displayed, fret no more about manually calculating your overall attendance rate.</p>
+               
+               <div class="dotsstats">
+                   <button id="dottwo" onclick="myFunction2()"><img src="imgs/statscircle.png" alt="Press to see Filter text"></button>
+                    <img src="imgs/filtercircle.png" alt="Circle Icon">
+                </div>
+            </div>
+               
+            </div>
+        </section>
+        
+        <section id="timetable">
+            <div id="timetablecontent">
+               
+                <div class="header">
+                <img src="imgs/Asset 1.png" alt="Timetable Icon">
+                <h1>Class Timetable</h1>
+                <h2>Filter <span>(NEW)</span>, Alarm <span>(NEW)</span>,<br>Download <span>(NEW)</span>, Customise <span>(NEW)</span></h2>
+               </div>
+               
+               <!--mockup-->
+               
+                <div data-aos="fade-right"><img class="mockup" src="imgs/timetablemockup.png" alt="Mockup of Timetable Page"></div>
+               
+               <!--desktop text-->
+               
+            <div id="timetabletext" data-aos="fade-left">
+               <div id="timetable1">
+               <img src="imgs/filter.png" alt="Filter Icon">
+               <p>The filter feature will make it easier and clearer for you to manage your time every day.</p>
+               </div>
+               <hr>
+               <div id="timetable2">
+               <img src ="imgs/download.png" alt="Download Icon">
+                <p>Other than that, you can download your timetable offline, which will automatically be saved in your mobile device.</p>
+                </div>
+                <hr>
+                <div id="timetable3">
+                <img src ="imgs/notification.png" alt="Notification Icon">
+                <p>Lastly, the latest alarm feature will notify you of your upcoming classes 10 minutes before it begins. You will never be late again!</p>
+                </div>
+            </div>
+            
+            <!--mobile timetable-->
+            
+            <div id="timetabletextmobile" data-aos="fade-left">
+               <div id="timetablea">
+                   <img src="imgs/filter.png" alt="Filter Icon">
+                   <h3>Filter</h3>
+                   <p>The filter feature will make it easier and clearer for you to manage your time every day.</p>
+                   
+                   <div class="timetablebuttons">
+                    <button id="abefore" onclick="abefore()"><img src="imgs/triangleleft.png" alt="click to to go previous"></button>
+                    
+                    <button id="anext" onclick="anext()"><img src="imgs/triangleright.png" alt="click to to go next"></button></div>
+               </div>
+
+                <div id="timetableb">
+                   <img src ="imgs/download.png" alt="Download Icon">
+                    <h3>Download</h3>
+                    <p>Other than that, you can download your timetable offline, which will automatically be saved in your mobile device.</p>
+                    
+                   <div class="timetablebuttons">
+                    <button id="bbefore" onclick="bbefore()"><img src="imgs/triangleleft.png" alt="click to to go previous"></button>
+                    
+                    <button id="bnext" onclick="bnext()"><img src="imgs/triangleright.png" alt="click to to go next"></button></div>
+                    
+                </div>
+
+                <div id="timetablec">
+                    <img src ="imgs/notification.png" alt="Notification Icon">
+                    <h3>Alarm</h3>
+                    <p>Lastly, the latest alarm feature will notify you of your upcoming classes 10 minutes before it begins. You will never be late again!</p>
+                    
+                   <div class="timetablebuttons">
+                    <button id="cbefore" onclick="cbefore()"><img src="imgs/triangleleft.png" alt="click to to go previous"></button>
+                    <button id="cnext" onclick="cnext()"><img src="imgs/triangleright.png" alt="click to to go next"></button></div>
+                    
+                </div>
+                
+                <div id="timetabled">
+                    <img src ="imgs/themes icon.png" alt="Customize Icon">
+                    <h3>Customize</h3>
+                    <p>Lastly, the latest alarm feature will notify you of your upcoming classes 10 minutes before it begins. You will never be late again!</p>
+                    
+                   <div class="timetablebuttons">
+                    <button id="dbefore" onclick="dbefore()"><img src="imgs/triangleleft.png" alt="click to to go previous"></button>
+                    <button id="dnext" onclick="dnext()"><img src="imgs/triangleright.png" alt="click to to go next"></button></div>
+                    
+                </div>
+            </div>
+
+            </div>
+        </section>
+        
+        <section id="themes">
+            <div id="themescontent">
+              <div class="header">
+                   <img src="imgs/themes icon.png" alt="Themes Icon">
+                   <h1>Customise your own NPal2 theme</h1>
+               </div>
+               
+                <img class="mockup" id="filtermockup" data-aos="fade-left" src="imgs/ezgif.com-video-to-gif.gif" alt="Mockup">
+                
+                <p data-aos="fade-right">Now, you can customise NPal to your own preference! Choose from a wide variety of colours and themes.</p>
+                
+            </div>
+        </section>
+        
+        <section id="try">
+            <div id="trycontent">
+            <iframe width="375" height="812" src="https://xd.adobe.com/embed/54d28344-130b-41aa-67fe-5c821e831281-22e3/?fullscreen" frameborder="0" allowfullscreen></iframe>
+               <h1>Try it out for yourself</h1>
+            </div>
+        </section>
+        
+        <footer id="contact">
+           <div class="socialmedia">
+           <h4>Social</h4>
+        <ul>
+            <li><a href="#"><img src ="imgs/twitter.png" alt="Twitter Icon">
+            <p>Twitter</p></a></li>
+            <li><a href="#"><img src ="imgs/facebook.png" alt="Facebook Icon">
+                <p>Facebook</p></a></li>
+            <li><a href="#"><img src ="imgs/youtube.png" alt="Youtube Icon">
+            <p>Youtube</p></a></li>
+        </ul>
+            </div>
+            
+            <a href="#screentop"><img src="imgs/arrowup.png" alt="Press to return to top"></a>
+        </footer>
+</div>
+
+<script type="text/javascript">
+    
+    //absence
+    
+function myFunction1() {
+  document.getElementById("stats").style.display = "block";
+    document.getElementById("filter").style.display = "none";
+    document.getElementById("filter").style.opacity = "0";
+    document.getElementById("statsmockup").style.display = "block";
+        document.getElementById("filtermockup").style.display = "none";
+}
+
+function myFunction2() {
+  document.getElementById("filter").style.display = "block";
+    document.getElementById("stats").style.display = "none";
+        document.getElementById("stats").style.opacity = "0";
+        document.getElementById("filtermockup").style.display = "block";
+        document.getElementById("statsmockup").style.display = "none";
+}
+
+    //timetable
+function anext() {
+  document.getElementById("timetableb").style.display = "block";
+    document.getElementById("timetablea").style.display = "none";
+}
+    
+function abefore() {
+  document.getElementById("timetabled").style.display = "block";
+    document.getElementById("timetablea").style.display = "none";
+}
+    
+function bnext() {
+  document.getElementById("timetablec").style.display = "block";
+    document.getElementById("timetableb").style.display = "none";
+}
+    
+function bbefore() {
+  document.getElementById("timetablea").style.display = "block";
+    document.getElementById("timetableb").style.display = "none";
+}
+    
+function cnext() {
+  document.getElementById("timetabled").style.display = "block";
+    document.getElementById("timetablec").style.display = "none";
+}  
+    
+function cbefore() {
+  document.getElementById("timetableb").style.display = "block";
+    document.getElementById("timetablec").style.display = "none";
+}  
+
+function dnext() {
+  document.getElementById("timetablea").style.display = "block";
+    document.getElementById("timetabled").style.display = "none";
+}
+    
+function dbefore() {
+  document.getElementById("timetablec").style.display = "block";
+    document.getElementById("timetabled").style.display = "none";
+}
+    
+</script>
+
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+<script src="aos.js"></script>
+  <script>
+     AOS.init({
+        duration:2000,
+    });
+  </script>
+  
+  <script>
+      //smoothscroll
+      $("#top ul li a[href^='#']").on('click', function(e) {
+
+   // prevent default anchor click behavior
+   e.preventDefault();
+
+   // store hash
+   var hash = this.hash;
+
+   // animate
+   $('html, body').animate({
+       scrollTop: $(hash).offset().top
+     }, 800, function(){
+
+       // when done, add hash to url
+       // (default click behaviour)
+       window.location.hash = hash;
+     });
+
+});
+      
+      $("#top ul li ul li a[href^='#']").on('click', function(e) {
+
+   // prevent default anchor click behavior
+   e.preventDefault();
+
+   // store hash
+   var hash = this.hash;
+
+   // animate
+   $('html, body').animate({
+       scrollTop: $(hash).offset().top
+     }, 800, function(){
+
+       // when done, add hash to url
+       // (default click behaviour)
+       window.location.hash = hash;
+     });
+
+});
+      
+    $("#contact a[href^='#']").on('click', function(e) {
+
+   // prevent default anchor click behavior
+   e.preventDefault();
+
+   // store hash
+   var hash = this.hash;
+
+   // animate
+   $('html, body').animate({
+       scrollTop: $(hash).offset().top
+     }, 800, function(){
+
+       // when done, add hash to url
+       // (default click behaviour)
+       window.location.hash = hash;
+     });
+
+});
+      
+    $("#navigation a[href^='#']").on('click', function(e) {
+
+   // prevent default anchor click behavior
+   e.preventDefault();
+
+   // store hash
+   var hash = this.hash;
+
+   // animate
+   $('html, body').animate({
+       scrollTop: $(hash).offset().top
+     }, 800, function(){
+
+       // when done, add hash to url
+       // (default click behaviour)
+       window.location.hash = hash;
+     });
+
+});
+      
+    </script>
+    
+    <script>
+        //absence fade in
+$(document).ready(function(){
+  $("#dotone").click(function(){
+    $("#stats").animate({
+      opacity: '1',
+    });
+  });
+});
+
+$(document).ready(function(){
+  $("#dottwo").click(function(){
+    $("#filter").animate({
+      opacity: '1',
+    });
+  });
+});
+    </script>
+
+</body>
+</html>
