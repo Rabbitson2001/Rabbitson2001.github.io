@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Diploma(Conversion) in Digital Media Design | Overview</title>
+	<meta name="Author" content="Ngee Ann Polytechnic"/>
+	<meta name="description" content="In this design course, students learn digital skillsets across the digital media and marketing spectrum, including social media, user experience design, design thinking, online publishing, social advertising, content creation, and campaign planning. These essential skills will help you pursue a professional career in design.">
+	<meta name="keywords" content="SSG Course, Digital Media Design, Digital Marketing, SSG funded course, School of Film and Media Studies, Design Thinking, New Media Design">
+	<link rel="stylesheet" type="text/css" href="overview.css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
+<script>
+$(document).ready(function(){
+$("#scrollup").on('click', function(event) {
+
+    if (this.hash !== "") {
+      event.preventDefault();
+
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        window.location.hash = hash;
+      });
+    }
+  });
+/*
+    $(window).on('resize', function() {
+        $('[copy-size]').each(function() {
+            var copyEl = $($(this).attr('copy-size'));
+            var targetEl = $(this);
+            targetEl.width(copyEl.width() + 'px');
+            targetEl.height(copyEl.height() + 'px');
+        });
+    });*/
+    
+       $(".hamburgerwrap").click(function() {
+           $(".navmenu").toggleClass("activenav")
+           $(".hamburgerwrap").toggleClass("open")
+        })
+});
+</script>
+    
+</head>
+<body>
+<div id="top"></div>
+<!--navigationbar-->
+<div class="navbar">
+    <a class="logobox" href="index.html">
+        <img src="/icons/logo.svg">
+    </a>
+    <a class="hamburgerwrap">
+        <div class="hamburgercontent"></div>
+    </a>
+    <ul class="navmenu">
+            <li class="navmenuitem">
+                <a class="active" href="overview.html">Course Overview</a>
+            </li>
+            <li class="navmenuitem">
+                <a href="industry.html">Industry Guests</a>
+            </li>
+            <li class="navmenuitem">
+                <a href="projects.html">Student Projects</a>
+            </li>
+            <li class="navmenuitem">
+                <a href="alumni.html">Alumni</a>
+            </li>
+            <li class="navmenuitem">
+                <a href="faculty.html">Faculty</a>
+            </li>
+            
+            <li class="hidden-navitem">
+                <a href="#">Apply Now</a>
+            </li>
+            
+            <li class="hidden-navitem">
+                <a href="https://www.np.edu.sg/lifelonglearning/Pages/faqs.aspx" target="_blank">FAQ</a>
+            </li>
+    </ul>
+</div>
+<!--content boxes-->
+
+<div class="viewport" id="vp1">
+<h1 id="title">Course Overview</h1>
+
+<div class="wrap-collapsible">
+  <input id="collapsible" class="toggle" type="checkbox">
+  <label for="collapsible" class="lbl-toggle">Industry Focused Course Syllabus</label>
+  <div class="collapsible-content">
+    <div class="content-inner">
+     
+      <div class="pdc">
+      <img class="pdcimage" src="illustrations/placeholder.png">
+       <div class="pdcinfo">
+        <div class="pdcabout">
+        <h6>Post Diploma Certificate in Digital Marketing (PDC1)</h6>
+            <ul>
+            <li>Comprehend technical and aesthetic aspects of common tools in digital media.</li>
+            <li>Obtain insightful and practical skills for working on digital media platforms.</li>
+            </ul>
+        </div>
+        
+      <div class="pdcmodules">
+            <h6>MODULES</h6>
+      <!--firstmodule-->
+      <div class="wrap-mod">
+          <input id="col-mod1" class="tog-mod1" type="checkbox">
+          <label for="col-mod1" class="lbl-mod1">Digital Media Principles and Practices</label>
+          <div class="collapsible-mod1">
+            <div class="content-mod">
+              <p>
+        This module focuses on User Experience Design, where candidates will learn best practices to design intuitive digital experiences to achieve increased customer loyalty, and higher retention and conversion rate. From strategic thinking to creative execution, candidates will have a better understanding of audiences’ needs and user journeys, and how these align with business or organisational goals.
+              </p>
+            </div>
+          </div>
+        </div>
+        
+    <!--secondmodule-->
+    <div class="wrap-mod">
+          <input id="col-mod2" class="tog-mod2" type="checkbox">
+          <label for="col-mod2" class="lbl-mod2">Digital Publishing</label>
+          <div class="collapsible-mod2">
+            <div class="content-mod">
+              <p>
+        This module covers the fundamentals of graphic communication. Students will learn the creative thinking process and how to communicate and present ideas in different publishing formats. In this module, candidates will learn tools such as Adobe InDesign.
+              </p>
+            </div>
+          </div>
+    </div>
+    
+       <!--thirdmodule-->
+    <div class="wrap-mod">
+          <input id="col-mod3" class="tog-mod3" type="checkbox">
+          <label for="col-mod3" class="lbl-mod3">Social Media Marketing</label>
+          <div class="collapsible-mod3">
+            <div class="content-mod">
+              <p>
+        This module exposes candidates to the current digital marketing landscape and helps them develop strategic frameworks and practical skills for conceptualising, planning and implementing winning social media campaigns.
+              </p>
+            </div>
+          </div>
+    </div>
+    </div>
+    </div>
+        
+    </div>
+    <!--pdc2-->
+    <div class="pdc" id="pdc2">
+      <img class="pdcimage" id="syllabusimg" src="illustrations/syllabus.svg">
+       <div class="pdcinfo">
+        <div class="pdcabout">
+        <h6>Post Diploma Certificate in Media Design (PDC2)</h6>
+            <ul>
+            <li>Attain specialised knowledge in areas such as design, web, online content and technology.</li>
+            <li>Gain insights into the mixed discipline of design and media.</li>
+            </ul>
+        </div>
+        
+      <div class="pdcmodules">
+            <h6>MODULES</h6>
+      <!--4thmodule-->
+      <div class="wrap-mod">
+          <input id="col-mod4" class="tog-mod4" type="checkbox">
+          <label for="col-mod4" class="lbl-mod4">New Media Design</label>
+          <div class="collapsible-mod4">
+            <div class="content-mod">
+              <p>
+        This module focuses on building practical knowledge in design thinking, which is the human-centred approach to solving business problems. Candidates will be taught how to effectively tackle real-world problems by coming up with solution-driven ideas that are technologically and economically feasible.
+              </p>
+            </div>
+          </div>
+        </div>
+        
+    <!--5thmodule-->
+    <div class="wrap-mod">
+          <input id="col-mod5" class="tog-mod5" type="checkbox">
+          <label for="col-mod5" class="lbl-mod5">Visual Design</label>
+          <div class="collapsible-mod5">
+            <div class="content-mod">
+              <p>
+        This module provides candidates with insights into the mixed discipline of design and digital media to create compelling, contextual content for the creative industries. Candidates will acquire practical skills in motion graphics and video editing using industry standard software such as Adobe After Effects.
+              </p>
+            </div>
+          </div>
+    </div>
+    <!--6thmodule-->
+    <div class="wrap-mod">
+          <input id="col-mod6" class="tog-mod6" type="checkbox">
+          <label for="col-mod6" class="lbl-mod6">Studio (Research, Portfolio and Branding)</label>
+          <div class="collapsible-mod6">
+            <div class="content-mod">
+              <p>
+        This is the final module of the course, which provides candidates with the opportunity to build a portfolio or a sustainable idea from conception to conclusion. Candidates are guided to apply the learnings from all previous modules in a final project. This module will have them identify organisational, social- or consumer-based problems, opportunities or issues based on a substantial level of structured research, and develop a proposal using digital media and design solutions.
+              </p>
+            </div>
+          </div>
+    </div>
+    </div>
+    </div>
+        
+    </div>
+    <p1>Required to complete the 2 post-diploma certificates within a two-year validity period to be awarded the Diploma (Conversion) qualification.</p1>
+    </div>
+  </div>
+</div>
+
+<div class="wrap-collapsible">
+  <input id="collapsible2" class="toggle2" type="checkbox">
+  <label for="collapsible2" class="lbl-toggle2">Entry Requirement</label>
+  <div class="collapsible-content2">
+       <div class="content-inner" id="entryrequirement">
+           <h6>Applicants with any of the following qualification are invited to apply for the course:</h6>
+            <p>A local Polytechnic Diploma or Degree</p>
+
+            <h6>Recognition of Prior Learning (RPL)</h6>
+            <p>Applicants who do not meet the entry requirements may be considered for admission to the course based on evidence of at least 5 years of relevant working experience or supporting evidence of competency readiness. Suitable applicants who are shortlisted may have to go through an interview and/or entrance test. The Polytechnic reserves the right to shortlist and admit applicants.</p>
+
+            <p>For more information about Recognition of Prior Learning, please click <a href="#">here.</a></p>
+       </div>
+    </div>
+</div>
+
+<div class="wrap-collapsible">
+  <input id="collapsible3" class="toggle3" type="checkbox">
+  <label for="collapsible3" class="lbl-toggle3">Course Fees</label>
+  <div class="collapsible-content3">
+       <div class="content-inner">
+           <div class="diploma-wrapper">
+   <div class="diplomabg"></div>
+    <div class="leftcontent">
+        <img class="leftimg" src="illustrations/feesicons/diploma.svg">
+        <h2>Full Diploma</h2>
+        <p1>Full fees<span>$5726.66</span></p1>
+        <p1>Total Hours<span>240</span></p1>
+    </div>
+    <div class="rightcontent">
+        <h3>Course Fees After Cost Reduction Schemes</h3>
+        <div class="rightinfo">
+                <div class="para">
+                    <img class="paraimg" src="illustrations/feesicons/briefcase.svg">
+                    <div class="paratext">
+                        <p1>Workfare Training Support Scheme</p1>
+                        <p1 class="bolded">$323.78</p1>
+                    </div>
+                </div>
+                
+                <div class="para">
+                    <img class="paraimg" src="illustrations/feesicons/ic.svg">
+                    <div class="paratext">
+                        <p1>Singaporean Permanent Residents</p1>
+                        <p1 class="bolded">$2,290.66</p1>
+                    </div>
+                </div>
+                
+                <div class="para">
+                    <img class="paraimg" src="illustrations/feesicons/old.svg">
+                    <div class="paratext">
+                        <p1>Singaporean citizens aged 40 &amp; above</p1>
+                        <p1 class="bolded">$572.64</p1>
+                    </div>
+                </div>
+                <div class="para">
+                    <img class="paraimg" src="illustrations/feesicons/young.svg">
+                    <div class="paratext">
+                        <p1>Singaporean citizens aged below 40</p1>
+                        <p1 class="bolded">$858.98</p1>
+                    </div>
+                </div>
+                
+                <div class="para">
+                    <img class="paraimg" src="illustrations/feesicons/buildings.svg">
+                    <div class="paratext">
+                        <p1>Singapore Citizens &amp; Singapore Permanent Residents sponsered by small to medium enterprises</p1>
+                        <p1 class="bolded">$591.40</p1>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
+
+<div class="sem-container">
+<!--semester-->
+<div class="semester-wrapper">
+   <div class="sem-leftcontainer">
+    <div class="leftcontent sem-leftcontent">
+        <p1>Semester 01</p1>
+        <p1>Post Diploma Certificate in Digital Media Marketing</p1>
+        <p1>Full fees<span>$2,863.33</span></p1>
+        <p1>Total Hours<span>120</span></p1>
+    </div>
+    <div class="leftcontent sem-leftcontent sem-leftcontent2">
+        <p1>Semester 02</p1>
+        <p1>Post Diploma Certificate in Media Design</p1>
+        <p1>Full fees<span>$5726.66</span></p1>
+        <p1>Total Hours<span>240</span></p1>
+    </div>
+    </div>
+    <div class="rightcontent sem-rightcontent">
+        <h3>Course Fees After Cost Reduction Schemes</h3>
+        <div class="rightinfo sem-rightinfo">
+                <div class="para semester-para">
+                    <img class="paraimg" src="illustrations/feesicons/briefcase.svg">
+                    <div class="paratext">
+                        <p1>Workfare Training Support Scheme</p1>
+                        <p1 class="bolded">$161.89</p1>
+                    </div>
+                </div>
+                
+                <div class="para semester-para">
+                    <img class="paraimg" src="illustrations/feesicons/ic.svg">
+                    <div class="paratext">
+                        <p1>Singaporean Permanent Residents</p1>
+                        <p1 class="bolded">$1,145.33</p1>
+                    </div>
+                </div>
+                
+                <div class="para semester-para">
+                    <img class="paraimg" src="illustrations/feesicons/old.svg">
+                    <div class="paratext">
+                        <p1>Singaporean citizens aged 40 &amp; above</p1>
+                        <p1 class="bolded">$286.32</p1>
+                    </div>
+                </div>
+                <div class="para semester-para">
+                    <img class="paraimg" src="illustrations/feesicons/young.svg">
+                    <div class="paratext">
+                        <p1>Singaporean citizens aged below 40</p1>
+                        <p1 class="bolded">$429.49</p1>
+                    </div>
+                </div>
+                
+                <div class="para semester-para">
+                    <img class="paraimg" src="illustrations/feesicons/buildings.svg">
+                    <div class="paratext">
+                        <p1>Singapore Citizens &amp; Singapore Permanent Residents sponsered by small to medium enterprises</p1>
+                        <p1 class="bolded">$295.70</p1>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
+
+<!--semester2-->
+<div class="semester-wrapper semester-wrapper2">
+   <div class="sem-leftcontainer">
+    <div class="leftcontent sem-leftcontent">
+        <p1>Semester 02</p1>
+        <p1>Post Diploma Certificate in Media Design</p1>
+        <p1>Full fees<span>$2,863.33</span></p1>
+        <p1>Total Hours<span>120</span></p1>
+    </div>
+    </div>
+    <div class="rightcontent sem-rightcontent">
+        <h3>Course Fees After Cost Reduction Schemes</h3>
+        <div class="rightinfo sem-rightinfo">
+                <div class="para semester-para">
+                    <img class="paraimg" src="illustrations/feesicons/briefcase.svg">
+                    <div class="paratext">
+                        <p1>Workfare Training Support Scheme</p1>
+                        <p1 class="bolded">$161.89</p1>
+                    </div>
+                </div>
+                
+                <div class="para semester-para">
+                    <img class="paraimg" src="illustrations/feesicons/ic.svg">
+                    <div class="paratext">
+                        <p1>Singaporean Permanent Residents</p1>
+                        <p1 class="bolded">$1,145.33</p1>
+                    </div>
+                </div>
+                
+                <div class="para semester-para">
+                    <img class="paraimg" src="illustrations/feesicons/old.svg">
+                    <div class="paratext">
+                        <p1>Singaporean citizens aged 40 &amp; above</p1>
+                        <p1 class="bolded">$286.32</p1>
+                    </div>
+                </div>
+                <div class="para semester-para">
+                    <img class="paraimg" src="illustrations/feesicons/young.svg">
+                    <div class="paratext">
+                        <p1>Singaporean citizens aged below 40</p1>
+                        <p1 class="bolded">$429.49</p1>
+                    </div>
+                </div>
+                
+                <div class="para semester-para">
+                    <img class="paraimg" src="illustrations/feesicons/buildings.svg">
+                    <div class="paratext">
+                        <p1>Singapore Citizens &amp; Singapore Permanent Residents sponsered by small to medium enterprises</p1>
+                        <p1 class="bolded">$295.70</p1>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
+</div>
+       </div>
+    </div>
+</div>
+
+<div class="wrap-collapsible" id="wrap-collapsible4">
+  <input id="collapsible4" class="toggle4" type="checkbox">
+  <label for="collapsible4" class="lbl-toggle4">Course Timing</label>
+  <div class="collapsible-content4">
+       <div class="content-inner" id="coursetiming">
+          <div id="timinginfo">
+           <h6>Course Date</h6>
+           <p>Once a Year; Next run commences in Oct 2020</p>
+           <h6>Frequency</h6>
+           <p>Every Saturday 8am - 6pm<br>
+           Excluding NP breaks and PHs</p>
+           <h6>Application Period</h6>
+           <p>15 Jun - 31 July 2020<br>
+           Application Outcome: 31 Aug 2020</p>
+        </div>
+        <img id="timingimage" src="illustrations/timing.svg">
+       </div>
+    </div>
+</div>
+
+    <a id="scrollup" href="#top">
+        Back to Top
+    </a>
+</div>
+
+<div class="viewport" id="vp2">
+    <div class="footer">        
+        <div class="contactbox">
+            <h3>Contact Us</h3>
+            <h4>535 Clementi Road<br>6466 6555<br>asknp@np.edu.sg</h4>
+        </div>
+        
+        <div class="socialbox">
+           <h3>Social Media</h3>
+            <div class=socialicons>
+            <a href="#"><img src="icons/facebook.svg"></a>
+            <a href="#"><img src="icons/twitter.svg"></a>
+            <a href="#"><img src="icons/instagram.svg"></a>
+            </div>
+        </div>
+        
+        <div class="footerbuttons">
+        <a href="#" class="applybtn"><h3>Apply Here</h3></a>
+        <a href="https://www.np.edu.sg/lifelonglearning/Pages/faqs.aspx" target="_blank" class="faqbtn"><h3>FAQ</h3></a>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>

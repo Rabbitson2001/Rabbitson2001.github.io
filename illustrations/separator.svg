@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="374.875" height="121.998" viewBox="0 0 374.875 121.998">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ebf3ff;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Group_29" data-name="Group 29" transform="translate(-0.124 -558.003)">
+    <path id="Subtraction_2" data-name="Subtraction 2" class="cls-1" d="M539.3,104H235V0H609.875V61.683L539.3,104Z" transform="translate(610 662.001) rotate(180)"/>
+    <path id="Subtraction_3" data-name="Subtraction 3" class="cls-2" d="M539.3,106H240V0H614.875V59.813L539.3,106Z" transform="translate(615 680.001) rotate(180)"/>
+  </g>
+</svg>

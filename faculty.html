@@ -3,37 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Diploma(Conversion) in Digital Media Design | Home</title>
+    <title>Diploma(Conversion) in Digital Media Design | Faculty</title>
 	<meta name="Author" content="Ngee Ann Polytechnic"/>
 	<meta name="description" content="In this design course, students learn digital skillsets across the digital media and marketing spectrum, including social media, user experience design, design thinking, online publishing, social advertising, content creation, and campaign planning. These essential skills will help you pursue a professional career in design.">
 	<meta name="keywords" content="SSG Course, Digital Media Design, Digital Marketing, SSG funded course, School of Film and Media Studies, Design Thinking, New Media Design">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="faculty.css">
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
-	<link href="aos.css" rel="stylesheet" type="text/css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-	
 	
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
-  // Add smooth scrolling to all links
-  $("#scrolldown").on('click', function(event) {
-
-    if (this.hash !== "") {
-      event.preventDefault();
-
-      var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-   
-        window.location.hash = hash;
-      });
-    }
-  });
-    
 $("#scrollup").on('click', function(event) {
 
     if (this.hash !== "") {
@@ -65,11 +44,8 @@ $("#scrollup").on('click', function(event) {
            $(".navmenu").toggleClass("activenav")
            $(".hamburgerwrap").toggleClass("open")
         })
-    
 });
-   
 </script>
-
 </head>
 <body>
 <div id="top"></div>
@@ -95,7 +71,7 @@ $("#scrollup").on('click', function(event) {
                 <a href="alumni.html">Alumni</a>
             </li>
             <li class="navmenuitem">
-                <a href="faculty.html">Faculty</a>
+                <a class="active" href="faculty.html">Faculty</a>
             </li>
             
             <li class="hidden-navitem">
@@ -110,72 +86,49 @@ $("#scrollup").on('click', function(event) {
 
 <!--content boxes-->
 <div class="viewport" id="vp1">
+    <div class="header">
+        <h1>Faculty</h1>
+        <h5>Our Outstanding Faculty</h5>
+    </div>
 
-    <div id="introbox">
-       <div id="shaped"></div>
-       <div id="introtext">
-       <h1><span>Diploma (Conversion) in</span> 
-Digital Media Design</h1>
-         <p1>From the fundamentals of digital media to research and development, you will learn how to explore the theoretical and practical skills involved in digital media and problem-seeking and solving techniques.</p1>
-         </div>
+    <div class="facultycontent">
+      <img class="facultyimage" src="Pictures/Ahsan.jpeg">
+       <div class="facultyinfo">
+        <h2>Ahsan Uddin Shan</h2>
+        <p1>Areas of special interest include Digital Insight, Art Direction, Industry Collaboration, Relationship Management, and Digital Marketing. In his diverse roles of designer, consultant, lecturer, and art director, he worked with many wonderful organizations, including Disney Singapore, Singapore Sports Council, Ministry of Education, Ministry of Transport, Inland Revenue Authority of Singapore, Unilever Singapore, Singapore Exchange and many more local and international brands.</p1>
+        </div>
+    </div>
+
+    <div class="facultycontent">
+      <img class="facultyimage" src="Pictures/Graham.jpeg">
+       <div class="facultyinfo">
+        <h2>Graham Lamb</h2>
+           <p1>Graham spent six years working in Desktop Publishing for The Guardian Media Group in Australia. Further studies in Multimedia majoring in 3D Computer Graphics prompted his shift to Visual Effects. Graham has since worked on numerous commercials and interactive events as the VFX Supervisor in the Asia region since relocating from Australia in 2005. Skilled in all aspects of VFX Production from concept to execution.
+</p1></div>
     </div>
     
-    <div id=scrolltohere></div>
-
-    <img id="introimg" src="https://d22ir9aoo7cbf6.cloudfront.net/wp-content/uploads/sites/2/2019/09/person-holding-flower-bouquet.png">
+    <div class="facultycontent">
+      <img class="facultyimage" src="Pictures/jeffrey.jpeg">
+       <div class="facultyinfo">
+        <h2>Jeffrey Lim</h2>
+           <p1>Live and breathe branding and digital, Jeff is passionate about anything creatively crafty, digitally disruptive and socially sound. Have spent more than 15 years helping brands and organisations stand out from the clutter. Areas of expertise: Branding, Creative Direction, Digital, Strategy, Content, Marketing, Social Media and Design Thinking. “Practice isn't the thing you do once you're good. It's the thing you do that makes you good.”</p1></div>
+    </div>
     
-    <a id="scrolldown" href="#scrolltohere">
-        Learn More
-    </a>
+    <div class="facultycontent">
+      <img class="facultyimage" src="Pictures/kwan.jpg">
+       <div class="facultyinfo">
+        <h2>Kim Kwan Soo</h2>
+           <p1>Kwan Soo was trained at Chung-Ang University, Korea before joining the media industry in Seoul, Korea. He has more than 15 years of working experience as a Designer and Director. He has worked on commercials, indents and on-air promos in broadcast design which combined graphic, animation and cinematic live-action. He conducted media design research at the Australian National University and taught at another polytechnic as a lecturer before joining Ngee Ann Polytechnic. His interests lie in design aesthetics in animation, video and film.</p1></div>
+    </div>
     
+    <div id="scrollwrap">
+       <a id="scrollup" href="#top">
+            <p1>Back to Top</p1>
+        </a>
+    </div>
 </div>
-
-
+    
 <div class="viewport" id="vp2">
-   <img id="separator" src="illustrations/separator.svg">
-    <h1>About</h1>
-    
-    <div class="aboutbox">
-    <div class="aboutcontent" id="aboutcontent1">
-    <h2 class="mobile-h2">What is this course about?</h2>
-    <img class="aboutimg" src="illustrations/about1.svg">
-    <div class="aboutinfo">
-    <h2>What is this course about?</h2>
-        <p1>Digital media has become a staple in our daily lives, this course will equip candidates with the relevant digital skillset to pursue a career in this emerging discipline. Candidates will be trained to be competent across the digital media and marketing spectrum, including social media, user experience design, design thinking, online publishing, social advertising, content creation, and campaign planning.</p1>
-        </div>
-    </div>
-    </div>
-    
-    <div class="aboutbox" id="about2">
-    <div id="about2bg"></div>
-    <div class="aboutcontent" id="aboutcontent2">
-      <h2 class="mobile-h2">Who is it for?</h2>
-       <img class="aboutimg" src="illustrations/placeholder.png">
-        <div class="aboutinfo" id="aboutinfo2">
-        <div id="mobileabout2bg" copy-size="#aboutinfo2"></div>
-        <h2>Who is it for?</h2>
-        <p1>This Diploma (Conversion) programme equips candidates with the creative, conceptual, and technical skills expected of today’s job seekers in the domain of digital media. It is best suited for professionals, mid-career switchers, fresh graduates or anyone wanting to acquire the fundamentals of digital marketing and wish to kickstart, or advance, their careers in the digital and creative industries.</p1>
-        </div>
-    </div>
-    </div>
-
-    <div class="aboutbox">
-    <div class="aboutcontent">
-    <h2 class="mobile-h2">What will you get out of it?</h2>
-    <img class="aboutimg" src="illustrations/about2.svg">
-    <div class="aboutinfo">
-    <h2>What will you get out of it?</h2>
-    <p1>This programme will help kickstart an exciting, dynamic career in the digital media sector or advance an existing one. Similarly, diploma and degree graduates from other disciplines planning to switch careers are welcome to apply.</p1></div>
-    </div>
-    </div>
-    
-    <a id="scrollup" href="#top">
-        Back to Top
-    </a>
-    
-    </div>
-
-<div class="viewport" id="vp3">
     <div class="footer">        
         <div class="contactbox">
             <h3>Contact Us</h3>
@@ -196,7 +149,6 @@ Digital Media Design</h1>
         <a href="https://www.np.edu.sg/lifelonglearning/Pages/faqs.aspx" target="_blank" class="faqbtn"><h3>FAQ</h3></a>
         </div>
     </div>
-</div>     
-
+</div>    
 </body>
 </html>
